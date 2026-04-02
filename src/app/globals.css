@@ -1,0 +1,6 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#020D1A;font-family:'Plus Jakarta Sans',sans-serif;color:#E8F4FF}
+::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-track{background:#020D1A}::-webkit-scrollbar-thumb{background:#00FFD1;border-radius:4px}
+*{-ms-overflow-style:none;scrollbar-width:thin}
+a{color:inherit;text-decoration:none}
+button,input,textarea,select{font-family:inherit}
