@@ -1,3 +1,4 @@
+$content = @'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -9,3 +10,5 @@ const nextConfig = {
 };
 
 export default nextConfig;
+'@
+$content | Out-File -FilePath next.config.mjs -Encoding UTF8
